@@ -1,0 +1,18 @@
+ARCHIVOS TRABAJADOS
+
+-DatosCompetencias.php
+-Configuracion.js
+-ConfiguracionControlador
+-ConfiguracionModelo.php
+
+TABLAS DE LA BASE DE DATOS TRABAJADAS
+-tbl_competencias:
+    •Nuevas relacion con la tabla "tbl_programa".
+
+
+========================//==========================
+
+-HorarioAmbiente.php
+-Configuracion.js
+-ConfiguracionControlador
+-ConfiguracionModelo.php
