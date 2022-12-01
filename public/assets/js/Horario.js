@@ -221,42 +221,42 @@ $(document).ready(function () {
                             else {
                                 if (color === "azul") {
                                     while (contador <= numeroDeHoras) {
-                                        $('#' + sumador).html('<label class="cuadroAzul" style="font-size:10px;"><a class="borrar" data-instructor="' + instructor + '"  data-row="' + sumador + '"><i class="bi-x-square-fill"></i></a><br>&nbsp;' + texto_competencia + '&nbsp;<br>&nbsp;&nbsp;' + "RESULTADOS" + '&nbsp;&nbsp;<br>&nbsp;' + resultados + '&nbsp;&nbsp;<br>&nbsp;' + texto_instructor + '&nbsp;&nbsp;<br>&nbsp;' + texto_ficha + '&nbsp;&nbsp;<br>&nbsp;' + '<a class = "ver-mas" id = "VerMas" name = "VerMas">EDITAR</a>' + '&nbsp;<br><br></label>');
+                                        $('#' + sumador).html('<label class="cuadroAzul" style="font-size:10px;"><a class="borrar" data-instructor="' + instructor + '"  data-row="' + sumador + '"><i class="bi-x-square-fill"></i></a><br>&nbsp;' + texto_competencia + '&nbsp;<br>&nbsp;&nbsp;' + "RESULTADOS" + '&nbsp;&nbsp;<br>&nbsp;' + resultados + '&nbsp;&nbsp;<br>&nbsp;' + texto_instructor + '&nbsp;&nbsp;<br>&nbsp;' + texto_ficha + '&nbsp;&nbsp;<br>&nbsp;' + '<a id = "Editar" name = "Editar">EDITAR</a>' + '&nbsp;<br><br></label>');
                                         sumador = sumador + 10;
                                         contador = contador + 1;
                                     }
                                 }
                                 else if (color === "verde") {
                                     while (contador <= numeroDeHoras) {
-                                        $('#' + sumador).html('<label class="cuadroVerde" style="font-size:10px;" ><a class="borrar" data-instructor="' + instructor + '"  data-row="' + sumador + '"><i class="bi-x-square-fill"></i></a><br>&nbsp;' + texto_competencia + '&nbsp;<br>&nbsp;&nbsp;' + "RESULTADOS" + '&nbsp;&nbsp;<br>&nbsp;' + resultados + '&nbsp;&nbsp;<br>&nbsp;' + texto_instructor + '&nbsp;&nbsp;<br>&nbsp;' + texto_ficha + '&nbsp;&nbsp;<br>&nbsp;' + '<a class = "ver-mas" id = "VerMas" name = "VerMas">EDITAR</a>' + '&nbsp;<br><br></label>');
+                                        $('#' + sumador).html('<label class="cuadroVerde" style="font-size:10px;" ><a class="borrar" data-instructor="' + instructor + '"  data-row="' + sumador + '"><i class="bi-x-square-fill"></i></a><br>&nbsp;' + texto_competencia + '&nbsp;<br>&nbsp;&nbsp;' + "RESULTADOS" + '&nbsp;&nbsp;<br>&nbsp;' + resultados + '&nbsp;&nbsp;<br>&nbsp;' + texto_instructor + '&nbsp;&nbsp;<br>&nbsp;' + texto_ficha + '&nbsp;&nbsp;<br>&nbsp;' + '<a id = "Editar" name = "Editar">EDITAR</a>' + '&nbsp;<br><br></label>');
                                         sumador = sumador + 10;
                                         contador = contador + 1;
                                     }
                                 }
                                 else if (color === "morado") {
                                     while (contador <= numeroDeHoras) {
-                                        $('#' + sumador).html('<label class="cuadroMorado" style="font-size:10px;"><a class="borrar"  data-instructor="' + instructor + '" data-row="' + sumador + '"><i class="bi-x-square-fill"></i></a><br>&nbsp;' + texto_competencia + '&nbsp;<br>&nbsp;&nbsp;' + "RESULTADOS" + '&nbsp;&nbsp;<br>&nbsp;' + resultados + '&nbsp;&nbsp;<br>&nbsp;' + texto_instructor + '&nbsp;&nbsp;<br>&nbsp;' + texto_ficha + '&nbsp;&nbsp;<br>&nbsp;' + '<a class = "ver-mas" id = "VerMas" name = "VerMas">EDITAR</a>' + '&nbsp;<br><br></label>');
+                                        $('#' + sumador).html('<label class="cuadroMorado" style="font-size:10px;"><a class="borrar"  data-instructor="' + instructor + '" data-row="' + sumador + '"><i class="bi-x-square-fill"></i></a><br>&nbsp;' + texto_competencia + '&nbsp;<br>&nbsp;&nbsp;' + "RESULTADOS" + '&nbsp;&nbsp;<br>&nbsp;' + resultados + '&nbsp;&nbsp;<br>&nbsp;' + texto_instructor + '&nbsp;&nbsp;<br>&nbsp;' + texto_ficha + '&nbsp;&nbsp;<br>&nbsp;' + '<a id = "Editar" name = "Editar">EDITAR</a>' + '&nbsp;<br><br></label>');
                                         sumador = sumador + 10;
                                         contador = contador + 1;
                                     }
                                 }
                                 else if (color === "rojo") {
                                     while (contador <= numeroDeHoras) {
-                                        $('#' + sumador).html('<label class="cuadroRojo" style="font-size:10px;"><a class="borrar" data-instructor="' + instructor + '"  data-row="' + sumador + '"><i class="bi-x-square-fill"></i></a><br>&nbsp;' + texto_competencia + '&nbsp;<br>&nbsp;&nbsp;' + "RESULTADO" + '&nbsp;&nbsp;<br>&nbsp;' + resultados + '&nbsp;&nbsp;<br>&nbsp;' + texto_instructor + '&nbsp;&nbsp;<br>&nbsp;' + texto_ficha + '&nbsp;&nbsp;<br>&nbsp;' + '<a class = "ver-mas" id = "VerMas" name = "VerMas">EDITAR</a>' + '&nbsp;<br><br></label>');
+                                        $('#' + sumador).html('<label class="cuadroRojo" style="font-size:10px;"><a class="borrar" data-instructor="' + instructor + '"  data-row="' + sumador + '"><i class="bi-x-square-fill"></i></a><br>&nbsp;' + texto_competencia + '&nbsp;<br>&nbsp;&nbsp;' + "RESULTADO" + '&nbsp;&nbsp;<br>&nbsp;' + resultados + '&nbsp;&nbsp;<br>&nbsp;' + texto_instructor + '&nbsp;&nbsp;<br>&nbsp;' + texto_ficha + '&nbsp;&nbsp;<br>&nbsp;' + '<a id = "Editar" name = "Editar">EDITAR</a>' + '&nbsp;<br><br></label>');
                                         sumador = sumador + 10;
                                         contador = contador + 1;
                                     }
                                 }
                                 else if (color === "amarillo") {
                                     while (contador <= numeroDeHoras) {
-                                        $('#' + sumador).html('<label class="cuadroAmarillo" style="font-size:10px;"><a class="borrar" data-instructor="' + instructor + '"  data-row="' + sumador + '"><i class="bi-x-square-fill"></i></a><br>&nbsp;' + texto_competencia + '&nbsp;<br>&nbsp;&nbsp;' + "RESULTADO" + '&nbsp;&nbsp;<br>&nbsp;' + resultados + '&nbsp;&nbsp;<br>&nbsp;' + texto_instructor + '&nbsp;&nbsp;<br>&nbsp;' + texto_ficha + '&nbsp;&nbsp;<br>&nbsp;' + '<a class = "ver-mas" id = "VerMas" name = "VerMas">EDITAR</a>' + '&nbsp;<br><br></label>');
+                                        $('#' + sumador).html('<label class="cuadroAmarillo" style="font-size:10px;"><a class="borrar" data-instructor="' + instructor + '"  data-row="' + sumador + '"><i class="bi-x-square-fill"></i></a><br>&nbsp;' + texto_competencia + '&nbsp;<br>&nbsp;&nbsp;' + "RESULTADO" + '&nbsp;&nbsp;<br>&nbsp;' + resultados + '&nbsp;&nbsp;<br>&nbsp;' + texto_instructor + '&nbsp;&nbsp;<br>&nbsp;' + texto_ficha + '&nbsp;&nbsp;<br>&nbsp;' + '<a id = "Editar" name = "Editar">EDITAR</a>' + '&nbsp;<br><br></label>');
                                         sumador = sumador + 10;
                                         contador = contador + 1;
                                     }
                                 }
                                 else if (color === "rosado") {
                                     while (contador <= numeroDeHoras) {
-                                        $('#' + sumador).html('<label class="cuadroRosado" style="font-size:10px;"><a class="borrar" data-instructor="' + instructor + '"  data-row="' + sumador + '"><i class="bi-x-square-fill"></i></a><br>&nbsp;' + texto_competencia + '&nbsp;<br>&nbsp;&nbsp;' + "RESULTADO" + '&nbsp;&nbsp;<br>&nbsp;' + resultados + '&nbsp;&nbsp;<br>&nbsp;' + texto_instructor + '&nbsp;&nbsp;<br>&nbsp;' + texto_ficha + '&nbsp;&nbsp;<br>&nbsp;' + '<a class = "ver-mas" id = "VerMas" name = "VerMas">EDITAR</a>' + '&nbsp;<br><br></label>');
+                                        $('#' + sumador).html('<label class="cuadroRosado" style="font-size:10px;"><a class="borrar" data-instructor="' + instructor + '"  data-row="' + sumador + '"><i class="bi-x-square-fill"></i></a><br>&nbsp;' + texto_competencia + '&nbsp;<br>&nbsp;&nbsp;' + "RESULTADO" + '&nbsp;&nbsp;<br>&nbsp;' + resultados + '&nbsp;&nbsp;<br>&nbsp;' + texto_instructor + '&nbsp;&nbsp;<br>&nbsp;' + texto_ficha + '&nbsp;&nbsp;<br>&nbsp;' + '<a id = "Editar" name = "Editar">EDITAR</a>' + '&nbsp;<br><br></label>');
                                         sumador = sumador + 10;
                                         contador = contador + 1;
                                     }
