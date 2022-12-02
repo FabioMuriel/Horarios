@@ -1952,9 +1952,5 @@ tablaFVSI = $('#tablaFVSI').DataTable({
     });
 }); 
 
-$(document).on('click', '#Editar', function(){
-    competencia = $("#competencia_horario").val();
-    alert(competencia);
-});
 
 

@@ -1,4 +1,6 @@
 $(document).ready(function () {
+    arr = [];
+
 
     var id_sedeA = $("#id_sedeA").val();
     contadorHORARIO = 0;
@@ -295,8 +297,14 @@ $(document).ready(function () {
                     Swal.close();
                     swal("Este Instructor Ya se Encuentra Asignado en esta hora en otro horario", "", "error");
                 }
+                
+                
             });
         }
+    });
+
+    $(document).on('click', '#Editar', function(){
+        alert($('#' + sumador).find("label").text());
     });
 
 
